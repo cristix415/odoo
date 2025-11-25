@@ -63,7 +63,7 @@
 
     <!-- Action -->
     <record id="action_my_model" model="ir.actions.act_window">
-        <field name="name">My Model CRI</field>
+        <field name="name">My Model CRISTI</field>
         <field name="res_model">my.model</field>
         <field name="view_mode">tree,form</field>
         <field name="help" type="html">
