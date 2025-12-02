@@ -1,5 +1,5 @@
 {
-    'name': 'Modulaaaaaaaaaa Cristi 2',
+    'name': 'Modulaaaaaaaaaa Cristi 3',
     'version': '19.0.0.0.1',  # 👈 SCHIMBĂ AICI - versiune normală
     'category': 'Tools',
     'summary': 'Modul simpluCristi',
