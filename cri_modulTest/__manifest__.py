@@ -1,6 +1,6 @@
 {
     'name': 'Modulaaaaaaaaaa Cristi 2',
-    'version': '16.0.1.0.3',  # 👈 SCHIMBĂ AICI - versiune normală
+    'version': '19.0.0.0.0',  # 👈 SCHIMBĂ AICI - versiune normală
     'category': 'Tools',
     'summary': 'Modul simpluCristi',
     'description': "Modul de demonstratie Odoo 16",
