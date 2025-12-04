@@ -1,6 +1,0 @@
-<odoo>
-  <template id="CAQ3HomeTemplate">
-    <h1>Welcome to CAQ3 Home</h1>
-    <p>This is the initial page content.</p>
-  </template>
-</odoo>

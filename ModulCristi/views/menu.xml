@@ -1,0 +1,15 @@
+<odoo>
+    <menuitem id="menu_test_root"
+              name="Test Module"
+              parent="base.menu_custom"/>
+              
+    <record id="action_test_page" model="ir.actions.client">
+        <field name="name">Pagina Test</field>
+        <field name="tag">hello_test</field>
+    </record>
+
+    <menuitem id="menu_test_page"
+              name="Hello"
+              parent="menu_test_root"
+              action="action_test_page"/>
+</odoo>
