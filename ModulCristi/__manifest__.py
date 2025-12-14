@@ -3,7 +3,7 @@
     'version': '1.0',
     'author': 'Cristi',
     'category': 'Test',
-    'summary': 'Un modul simplu pentru Odoo 19',
+    'summary': 'Un modul simplu pentru Odoo 19 1',
     'depends': ['base'],
     'license': 'LGPL-3',
     'data': [
