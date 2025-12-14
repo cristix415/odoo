@@ -7,5 +7,5 @@
     <menuitem id="menu_modul_cristi"
               name="Înregistrări"
               parent="menu_modul_cristi_root"
-              action="action_modul_cristi"/>
+              action="ModulCristi.action_modul_cristi"/>
 </odoo>
