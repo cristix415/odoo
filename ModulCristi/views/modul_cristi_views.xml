@@ -1,0 +1,36 @@
+<odoo>
+    <record id="view_modul_cristi_tree" model="ir.ui.view">
+        <field name="name">modul.cristi.tree</field>
+        <field name="model">modul.cristi</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_modul_cristi_form" model="ir.ui.view">
+        <field name="name">modul.cristi.form</field>
+        <field name="model">modul.cristi</field>
+        <field name="arch" type="xml">
+            <form string="Modul Cristi">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_modul_cristi" model="ir.actions.act_window">
+        <field name="name">Modul Cristi</field>
+        <field name="res_model">modul.cristi</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">Apasă "Creează" pentru a adăuga o înregistrare.</p>
+        </field>
+    </record>
+</odoo>
