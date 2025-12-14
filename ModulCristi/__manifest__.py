@@ -5,6 +5,7 @@
     'category': 'Test',
     'summary': 'Un modul simplu pentru Odoo 19',
     'depends': ['base'],
+    'license': 'LGPL-3',
     'data': [
         'security/ir.model.access.csv',
         'views/modul_cristi_views.xml',

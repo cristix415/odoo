@@ -3,17 +3,7 @@
     <menuitem id="menu_modul_cristi_root"
               name="Modul Cristi"/>
 
-    <!-- Action that opens the list/form for modul.cristi -->
-    <record id="action_modul_cristi" model="ir.actions.act_window">
-        <field name="name">Modul Cristi</field>
-        <field name="res_model">modul.cristi</field>
-        <field name="view_mode">tree,form</field>
-        <field name="help" type="html">
-            <p class="oe_view_nocontent_create">Apasă "Creează" pentru a adăuga o înregistrare.</p>
-        </field>
-    </record>
-
-    <!-- Child menu that opens the list view -->
+    <!-- Child menu that opens the list view (action defined in modul_cristi_views.xml) -->
     <menuitem id="menu_modul_cristi"
               name="Înregistrări"
               parent="menu_modul_cristi_root"
