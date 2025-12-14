@@ -25,12 +25,5 @@
         </field>
     </record>
 
-    <record id="action_modul_cristi" model="ir.actions.act_window">
-        <field name="name">Modul Cristi</field>
-        <field name="res_model">modul.cristi</field>
-        <field name="view_mode">tree,form</field>
-        <field name="help" type="html">
-            <p class="oe_view_nocontent_create">Apasă "Creează" pentru a adăuga o înregistrare.</p>
-        </field>
-    </record>
+    <!-- The action for opening the model is defined in menu.xml to ensure it's available when menus are parsed -->
 </odoo>
