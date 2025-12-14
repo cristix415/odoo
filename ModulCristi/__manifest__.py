@@ -1,5 +1,5 @@
 {
-    'name': 'Modul Cristi2',
+    'name': 'Modul Cristi3',
     'version': '1.0',
     'author': 'Cristi',
     'category': 'Test',
