@@ -26,7 +26,7 @@
     </record>
 
     <record id="action_modul_cristi" model="ir.actions.act_window">
-        <field name="name">Modul Cristi field 55555555</field>
+        <field name="name">Modul Cristi field 66666666666</field>
         <field name="res_model">modul.cristi</field>
         <field name="view_mode">list,form</field>
         <field name="help" type="html">
