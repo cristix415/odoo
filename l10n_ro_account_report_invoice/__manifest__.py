@@ -4,9 +4,9 @@
 {
     "name": "Romania - Invoice Report",
     "summary": "Romania - Invoice Report",
-    "version": "18.0.0.2.0",
+    "version": "19.0.0.4.0",
     "category": "Localization",
-    "author": "NextERP Romania," "Odoo Community Association (OCA)",
+    "author": "NextERP Romania,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-romania",
     "license": "AGPL-3",
     "installable": True,

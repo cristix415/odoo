@@ -12,6 +12,9 @@ class TestReportPoSOrder(AccountTestInvoicingCommon):
         cls.env.company.anglo_saxon_accounting = True
         cls.env.company.l10n_ro_accounting = True
 
+        pos_admin_group = cls.env.ref("point_of_sale.group_pos_manager")
+        cls.env.user.group_ids = [(4, pos_admin_group.id)]
+
     def test_wizard_report(self):
         wizard = self.env["pos.details.wizard"].create({})
         wizard.generate_report()
