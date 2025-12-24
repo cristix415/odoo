@@ -1,7 +1,7 @@
 <odoo>
     <!-- Top-level menu for Modul Cristi -->
     <menuitem id="menu_modul_cristi_root"
-              name="Modul Cristia1"/>
+              name="Modul Cristian"/>
 
     <!-- Child menu that opens the list view (action defined in modul_cristi_views.xml) -->
     <menuitem id="menu_modul_cristi"
