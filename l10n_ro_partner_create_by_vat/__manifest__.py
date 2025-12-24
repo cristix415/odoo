@@ -20,7 +20,7 @@
     ],
     "maintainers": ["feketemihai"],
     "external_dependencies": {
-        "python": ["zeep==4.3.2"],
+        'python': ['zeep>=4.2.0,<4.3.0'],
         "apt": {
             "zeep": "python3-zeep",
         },
